@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block body %}
+{% if role == "admin" %}
+<p>Admin Section</p>
+{% elif role == "maintainer" %}
+<p>App Source Page for Maintainer</p>
+{% elif role == "member" %}
+<p>Hope you are enjoying our services</p>
+{% else %}
+<p>Hello, {{ role }}</p>
+{% endif %}
+{% endblock %}

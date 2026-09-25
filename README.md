@@ -1,6 +1,6 @@
 # Flask Learning Apps
 
-This repository contains three small Flask practice applications.
+This repository contains five small Flask practice applications. Each app has its own README with routes and run instructions.
 
 ## 1. first_model_flask_app
 
@@ -37,6 +37,34 @@ flask --app third_flask_app.app run --debug
 ```
 
 Open `http://127.0.0.1:5000/` in a browser, enter a number, and submit the form.
+
+## 4. fourth_flask_app
+
+A basic login practice application. The login form accepts the username `admin` and redirects to a success page.
+
+Run from the repository root:
+
+```powershell
+flask --app fourth_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [fourth_flask_app/README.md](fourth_flask_app/README.md) for details.
+
+## 5. fifth_flask_app
+
+A routing and template-rendering application with home, about, personalized welcome, and role-based contact routes.
+
+Run from the repository root:
+
+```powershell
+flask --app fifth_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [fifth_flask_app/README.md](fifth_flask_app/README.md) for details.
 
 ## Setup
 
