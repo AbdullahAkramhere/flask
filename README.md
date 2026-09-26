@@ -1,6 +1,6 @@
 # Flask Learning Apps
 
-This repository contains six small Flask practice applications. Each app has its own README with routes and run instructions.
+This repository contains seven small Flask practice applications. Each app has its own README with routes and run instructions.
 
 ## 1. first_model_flask_app
 
@@ -79,6 +79,20 @@ flask --app sixth_flask_app.app run --debug
 Open `http://127.0.0.1:5000/` in a browser.
 
 See [sixth_flask_app/README.md](sixth_flask_app/README.md) for details.
+
+## 7. seven_flask_app
+
+A file-upload application that sanitizes uploaded filenames with Werkzeug and displays an acknowledgement page after saving the file.
+
+Run from the repository root:
+
+```powershell
+flask --app seven_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [seven_flask_app/README.md](seven_flask_app/README.md) for details.
 
 ## Setup
 
