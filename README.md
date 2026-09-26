@@ -1,6 +1,6 @@
 # Flask Learning Apps
 
-This repository contains five small Flask practice applications. Each app has its own README with routes and run instructions.
+This repository contains six small Flask practice applications. Each app has its own README with routes and run instructions.
 
 ## 1. first_model_flask_app
 
@@ -66,6 +66,20 @@ Open `http://127.0.0.1:5000/` in a browser.
 
 See [fifth_flask_app/README.md](fifth_flask_app/README.md) for details.
 
+## 6. sixth_flask_app
+
+A Flask-WTF form application that validates and displays text, password, checkbox, decimal, radio, select, text area, and file-upload fields.
+
+Run from the repository root:
+
+```powershell
+flask --app sixth_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [sixth_flask_app/README.md](sixth_flask_app/README.md) for details.
+
 ## Setup
 
 Create and activate a virtual environment, then install the required packages:
@@ -73,7 +87,7 @@ Create and activate a virtual environment, then install the required packages:
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-pip install Flask Flask-SQLAlchemy
+pip install Flask Flask-SQLAlchemy Flask-WTF WTForms
 ```
 
 The applications should be run one at a time because they use the same default port, `5000`.
