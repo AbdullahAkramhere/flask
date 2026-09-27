@@ -1,6 +1,6 @@
 # Flask Learning Apps
 
-This repository contains nine small Flask practice applications. Each app has its own README with routes and run instructions.
+This repository contains ten small Flask practice applications. Each app has its own README with routes and run instructions.
 
 ## 1. first_model_flask_app
 
@@ -121,6 +121,20 @@ flask --app nineth_flask_app.app run --debug
 Open `http://127.0.0.1:5000/` in a browser.
 
 See [nineth_flask_app/README.md](nineth_flask_app/README.md) for details.
+
+## 10. tenth_flask_app
+
+A Flask-SQLAlchemy profile manager using SQLite. It lists profiles and supports adding and deleting them.
+
+Run from the repository root:
+
+```powershell
+flask --app tenth_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [tenth_flask_app/README.md](tenth_flask_app/README.md) for details.
 
 ## Setup
 
