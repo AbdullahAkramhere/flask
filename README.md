@@ -1,6 +1,6 @@
 # Flask Learning Apps
 
-This repository contains ten small Flask practice applications. Each app has its own README with routes and run instructions.
+This repository contains eleven small Flask practice applications. Each app has its own README with routes and run instructions.
 
 ## 1. first_model_flask_app
 
@@ -135,6 +135,20 @@ flask --app tenth_flask_app.app run --debug
 Open `http://127.0.0.1:5000/` in a browser.
 
 See [tenth_flask_app/README.md](tenth_flask_app/README.md) for details.
+
+## 11. eleventh_flask_app
+
+A Flask and SQLite participant registration app. It accepts participant details and displays the saved list.
+
+Run from the repository root:
+
+```powershell
+flask --app eleventh_flask_app.app run --debug
+```
+
+Open `http://127.0.0.1:5000/` in a browser.
+
+See [eleventh_flask_app/README.md](eleventh_flask_app/README.md) for details.
 
 ## Setup
 

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask and SQLite </title>
+    </head>
+    <body>
+        <h1>Build Web App Using Flask and SQLite</h1>
+            <button class="btn" type="button" data-url="{{ url_for('join') }}" onclick="window.location.assign(this.dataset.url)">Fill form to get updates</button><br/>
+            <button class="btn" type="button" data-url="{{ url_for('participants') }}" onclick="window.location.assign(this.dataset.url)">Check participant list</button>
+    </body>
+</html>
